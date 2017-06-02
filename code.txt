@@ -1,0 +1,86 @@
+1.    <a class="ui-btn" data-rel="close"  data-role="button" id="submit">提交</a>
+
+      $('document').ready(function(){$('#screen').trigger('click')});  
+
+
+
+2.
+<script type="text/javascript" src="mobilJs/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="mobilJs/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="mobilJs/base.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script type="text/javascript" src="js/eleAnalyse.js"></script>
+<script type="text/javascript" src="js/tbl.js"></script>
+<script src="mobilJs/mobiscroll.core-2.5.2.js" type="text/javascript"></script>
+<script src="mobilJs/mobiscroll.core-2.5.2-zh.js" type="text/javascript"></script>
+<script src="mobilJs/mobiscroll.datetime-2.5.1.js" type="text/javascript"></script>
+<script src="mobilJs/mobiscroll.datetime-2.5.1-zh.js" type="text/javascript"></script>
+
+
+
+3.
+var opt={'default': {
+				theme: 'android-ics light', 
+		        display: 'modal',  
+		        mode: 'scroller', 
+				lang:'zh',
+		        startYear:currYear - 10, 
+		        endYear:currYear + 10 
+		        
+			}};
+
+
+
+
+
+
+
+4.
+<div>
+	            <legend class="volTest">放电测试</legend>
+	        	
+	        	<div class="ui-radio"><label for="elevol" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">放电截止电压</label><input type="radio" name="dischargetest" id="elevol" value="0" data-cacheval="true"></div>
+	        	
+	        	<div class="ui-radio"><label for="realcap" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">预估实际容量</label><input type="radio" name="dischargetest" id="realcap" value="1" data-cacheval="false"></div> 
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.
+<div>
+	            <legend class="resisTest">内阻/电导测试</legend>
+		        
+		        <div class="ui-radio"><label for="vol" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-on">电压</label><input type="radio" name="conductancetest" id="vol" value="2" data-cacheval="true"></div>
+		        
+		        <div class="ui-radio"><label for="cap" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-on">电导</label><input type="radio" name="conductancetest" id="cap" value="3" data-cacheval="false"></div>
+		         
+		        <div class="ui-radio"><label for="capper" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">电导百分比</label><input type="radio" name="conductancetest" id="capper" value="4" data-cacheval="false"></div>
+		        
+		        <div class="ui-radio"><label for="res" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">内阻</label><input type="radio" name="conductancetest" id="res" value="5" data-cacheval="false"></div>
+		        
+		        <div class="ui-radio"><label for="tem" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">温度</label><input type="radio" name="conductancetest" id="tem" value="6" data-cacheval="false"></div>
+		        
+		        <div class="ui-radio"><label for="tiebar" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off ui-last-child">连接条阻抗</label><input type="radio" name="conductancetest" id="tiebar" value="7" data-cacheval="false"></div>        
+	      </div>
+
+
+
+
+
+
+6.
+SEARCH eleMonomer.html   [alert("<s:text name='Please_choose_a_group_of_battery_pack!' />");]
