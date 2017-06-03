@@ -83,4 +83,13 @@ var opt={'default': {
 
 
 6.
-SEARCH eleMonomer.html   [alert("<s:text name='Please_choose_a_group_of_battery_pack!' />");]
+SEARCH eleMonomer.html   [alert("<s:text name='Please_choose_a_group_of_battery_pack!' />");]66666666666666666666666666666666666666666666
+
+
+88888888888888888888888888888888888889999
+
+
+
+
+
+
